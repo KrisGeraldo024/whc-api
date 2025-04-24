@@ -1,0 +1,238 @@
+  2024-11-20 14:02:48 App\Jobs\SendingNewUser ........................ RUNNING
+  2024-11-20 14:02:51 App\Jobs\SendingNewUser ........................ 2s DONE
+  2024-11-20 18:00:03 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-20 18:00:03 App\Jobs\AutoDeleteInquiries .............. 20.65ms FAIL
+  2024-11-20 18:00:03 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-20 18:00:03 App\Jobs\AutoDeleteInquiries ............... 9.56ms FAIL
+  2024-11-20 18:00:03 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-20 18:00:03 App\Jobs\AutoDeleteInquiries .............. 10.41ms FAIL
+  2024-11-21 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 00:00:02 App\Jobs\AutoDeleteInquiries .............. 30.62ms FAIL
+  2024-11-21 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 00:00:02 App\Jobs\AutoDeleteInquiries ............... 8.90ms FAIL
+  2024-11-21 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 00:00:02 App\Jobs\AutoDeleteInquiries .............. 10.33ms FAIL
+  2024-11-21 06:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 06:00:02 App\Jobs\AutoDeleteInquiries .............. 14.70ms FAIL
+  2024-11-21 06:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 06:00:02 App\Jobs\AutoDeleteInquiries .............. 10.14ms FAIL
+  2024-11-21 06:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 06:00:02 App\Jobs\AutoDeleteInquiries ............... 7.50ms FAIL
+  2024-11-21 10:40:40 App\Jobs\SendingNewUser ........................ RUNNING
+  2024-11-21 10:40:43 App\Jobs\SendingNewUser ........................ 3s DONE
+  2024-11-21 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 12:00:02 App\Jobs\AutoDeleteInquiries .............. 17.70ms FAIL
+  2024-11-21 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 12:00:02 App\Jobs\AutoDeleteInquiries .............. 19.88ms FAIL
+  2024-11-21 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 12:00:02 App\Jobs\AutoDeleteInquiries ............... 7.96ms FAIL
+  2024-11-21 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 18:00:02 App\Jobs\AutoDeleteInquiries .............. 21.62ms FAIL
+  2024-11-21 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 18:00:02 App\Jobs\AutoDeleteInquiries .............. 10.21ms FAIL
+  2024-11-21 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-21 18:00:02 App\Jobs\AutoDeleteInquiries ............... 7.97ms FAIL
+  2024-11-22 00:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 00:00:01 App\Jobs\AutoDeleteInquiries .............. 24.09ms FAIL
+  2024-11-22 00:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 00:00:01 App\Jobs\AutoDeleteInquiries ............... 7.17ms FAIL
+  2024-11-22 00:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 00:00:01 App\Jobs\AutoDeleteInquiries ............... 9.33ms FAIL
+  2024-11-22 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 06:00:01 App\Jobs\AutoDeleteInquiries .............. 17.79ms FAIL
+  2024-11-22 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 06:00:01 App\Jobs\AutoDeleteInquiries ............... 9.74ms FAIL
+  2024-11-22 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 06:00:01 App\Jobs\AutoDeleteInquiries ............... 9.06ms FAIL
+  2024-11-22 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 12:00:02 App\Jobs\AutoDeleteInquiries .............. 13.40ms FAIL
+  2024-11-22 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 12:00:02 App\Jobs\AutoDeleteInquiries .............. 13.47ms FAIL
+  2024-11-22 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 12:00:02 App\Jobs\AutoDeleteInquiries ............... 8.52ms FAIL
+  2024-11-22 14:36:20 App\Jobs\SendingNewUser ........................ RUNNING
+  2024-11-22 14:36:23 App\Jobs\SendingNewUser ........................ 3s DONE
+  2024-11-22 17:30:51 App\Jobs\SendingNewUser ........................ RUNNING
+  2024-11-22 17:30:54 App\Jobs\SendingNewUser ........................ 2s DONE
+  2024-11-22 18:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 18:00:01 App\Jobs\AutoDeleteInquiries .............. 21.67ms FAIL
+  2024-11-22 18:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 18:00:01 App\Jobs\AutoDeleteInquiries .............. 11.32ms FAIL
+  2024-11-22 18:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-22 18:00:01 App\Jobs\AutoDeleteInquiries .............. 10.45ms FAIL
+  2024-11-23 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 00:00:03 App\Jobs\AutoDeleteInquiries .............. 16.28ms FAIL
+  2024-11-23 00:00:03 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 00:00:03 App\Jobs\AutoDeleteInquiries .............. 15.28ms FAIL
+  2024-11-23 00:00:03 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 00:00:03 App\Jobs\AutoDeleteInquiries ............... 9.96ms FAIL
+  2024-11-23 06:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 06:00:02 App\Jobs\AutoDeleteInquiries .............. 17.70ms FAIL
+  2024-11-23 06:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 06:00:02 App\Jobs\AutoDeleteInquiries .............. 11.01ms FAIL
+  2024-11-23 06:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 06:00:02 App\Jobs\AutoDeleteInquiries .............. 10.69ms FAIL
+  2024-11-23 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 12:00:02 App\Jobs\AutoDeleteInquiries .............. 16.56ms FAIL
+  2024-11-23 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 12:00:02 App\Jobs\AutoDeleteInquiries .............. 12.33ms FAIL
+  2024-11-23 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 12:00:02 App\Jobs\AutoDeleteInquiries .............. 10.54ms FAIL
+  2024-11-23 18:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 18:00:01 App\Jobs\AutoDeleteInquiries .............. 19.84ms FAIL
+  2024-11-23 18:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 18:00:01 App\Jobs\AutoDeleteInquiries .............. 12.35ms FAIL
+  2024-11-23 18:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-23 18:00:01 App\Jobs\AutoDeleteInquiries .............. 11.11ms FAIL
+  2024-11-23 18:20:57 App\Jobs\SendingNewUser ........................ RUNNING
+  2024-11-23 18:21:00 App\Jobs\SendingNewUser ........................ 2s DONE
+  2024-11-24 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 00:00:02 App\Jobs\AutoDeleteInquiries .............. 13.60ms FAIL
+  2024-11-24 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 00:00:02 App\Jobs\AutoDeleteInquiries .............. 10.22ms FAIL
+  2024-11-24 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 00:00:02 App\Jobs\AutoDeleteInquiries ............... 9.70ms FAIL
+  2024-11-24 06:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 06:00:02 App\Jobs\AutoDeleteInquiries .............. 14.11ms FAIL
+  2024-11-24 06:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 06:00:02 App\Jobs\AutoDeleteInquiries .............. 14.19ms FAIL
+  2024-11-24 06:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 06:00:02 App\Jobs\AutoDeleteInquiries .............. 10.22ms FAIL
+  2024-11-24 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 12:00:02 App\Jobs\AutoDeleteInquiries .............. 15.68ms FAIL
+  2024-11-24 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 12:00:02 App\Jobs\AutoDeleteInquiries ............... 9.79ms FAIL
+  2024-11-24 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 12:00:02 App\Jobs\AutoDeleteInquiries ............... 9.80ms FAIL
+  2024-11-24 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 18:00:02 App\Jobs\AutoDeleteInquiries .............. 17.16ms FAIL
+  2024-11-24 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 18:00:02 App\Jobs\AutoDeleteInquiries .............. 11.15ms FAIL
+  2024-11-24 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-24 18:00:02 App\Jobs\AutoDeleteInquiries ............... 9.19ms FAIL
+  2024-11-25 00:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 00:00:01 App\Jobs\AutoDeleteInquiries .............. 14.60ms FAIL
+  2024-11-25 00:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 00:00:01 App\Jobs\AutoDeleteInquiries ............... 9.64ms FAIL
+  2024-11-25 00:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 00:00:01 App\Jobs\AutoDeleteInquiries .............. 11.39ms FAIL
+  2024-11-25 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 06:00:01 App\Jobs\AutoDeleteInquiries .............. 13.29ms FAIL
+  2024-11-25 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 06:00:01 App\Jobs\AutoDeleteInquiries .............. 12.20ms FAIL
+  2024-11-25 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 06:00:01 App\Jobs\AutoDeleteInquiries ............... 9.89ms FAIL
+  2024-11-25 10:12:01 App\Jobs\SendingNewUser ........................ RUNNING
+  2024-11-25 10:12:04 App\Jobs\SendingNewUser ........................ 2s DONE
+  2024-11-25 10:13:44 App\Jobs\SendingNewUser ........................ RUNNING
+  2024-11-25 10:13:46 App\Jobs\SendingNewUser ........................ 2s DONE
+  2024-11-25 10:15:02 App\Jobs\SendingNewUser ........................ RUNNING
+  2024-11-25 10:15:04 App\Jobs\SendingNewUser ........................ 2s DONE
+  2024-11-25 12:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 12:00:01 App\Jobs\AutoDeleteInquiries .............. 14.49ms FAIL
+  2024-11-25 12:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 12:00:01 App\Jobs\AutoDeleteInquiries .............. 13.05ms FAIL
+  2024-11-25 12:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 12:00:01 App\Jobs\AutoDeleteInquiries ............... 6.96ms FAIL
+  2024-11-25 18:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 18:00:01 App\Jobs\AutoDeleteInquiries .............. 25.49ms FAIL
+  2024-11-25 18:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 18:00:01 App\Jobs\AutoDeleteInquiries ............... 9.63ms FAIL
+  2024-11-25 18:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-25 18:00:01 App\Jobs\AutoDeleteInquiries ............... 9.44ms FAIL
+  2024-11-26 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 00:00:02 App\Jobs\AutoDeleteInquiries .............. 23.48ms FAIL
+  2024-11-26 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 00:00:02 App\Jobs\AutoDeleteInquiries ............... 8.61ms FAIL
+  2024-11-26 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 00:00:02 App\Jobs\AutoDeleteInquiries .............. 13.25ms FAIL
+  2024-11-26 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 06:00:01 App\Jobs\AutoDeleteInquiries .............. 17.07ms FAIL
+  2024-11-26 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 06:00:01 App\Jobs\AutoDeleteInquiries .............. 10.49ms FAIL
+  2024-11-26 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 06:00:01 App\Jobs\AutoDeleteInquiries ............... 9.64ms FAIL
+  2024-11-26 12:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 12:00:01 App\Jobs\AutoDeleteInquiries .............. 24.58ms FAIL
+  2024-11-26 12:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 12:00:01 App\Jobs\AutoDeleteInquiries .............. 13.07ms FAIL
+  2024-11-26 12:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 12:00:01 App\Jobs\AutoDeleteInquiries .............. 11.01ms FAIL
+  2024-11-26 13:10:13 App\Jobs\SendingNewUser ........................ RUNNING
+  2024-11-26 13:10:16 App\Jobs\SendingNewUser ........................ 2s DONE
+  2024-11-26 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 18:00:02 App\Jobs\AutoDeleteInquiries .............. 18.65ms FAIL
+  2024-11-26 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 18:00:02 App\Jobs\AutoDeleteInquiries .............. 11.41ms FAIL
+  2024-11-26 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-26 18:00:02 App\Jobs\AutoDeleteInquiries .............. 10.93ms FAIL
+  2024-11-27 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 00:00:02 App\Jobs\AutoDeleteInquiries .............. 19.41ms FAIL
+  2024-11-27 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 00:00:02 App\Jobs\AutoDeleteInquiries .............. 11.86ms FAIL
+  2024-11-27 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 00:00:02 App\Jobs\AutoDeleteInquiries .............. 10.41ms FAIL
+  2024-11-27 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 06:00:01 App\Jobs\AutoDeleteInquiries .............. 12.85ms FAIL
+  2024-11-27 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 06:00:01 App\Jobs\AutoDeleteInquiries ............... 8.46ms FAIL
+  2024-11-27 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 06:00:01 App\Jobs\AutoDeleteInquiries ............... 6.94ms FAIL
+  2024-11-27 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 12:00:02 App\Jobs\AutoDeleteInquiries .............. 22.54ms FAIL
+  2024-11-27 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 12:00:02 App\Jobs\AutoDeleteInquiries .............. 10.66ms FAIL
+  2024-11-27 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 12:00:02 App\Jobs\AutoDeleteInquiries ............... 8.45ms FAIL
+  2024-11-27 18:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 18:00:01 App\Jobs\AutoDeleteInquiries .............. 26.31ms FAIL
+  2024-11-27 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 18:00:02 App\Jobs\AutoDeleteInquiries .............. 13.92ms FAIL
+  2024-11-27 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-27 18:00:02 App\Jobs\AutoDeleteInquiries .............. 14.02ms FAIL
+  2024-11-28 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 00:00:02 App\Jobs\AutoDeleteInquiries .............. 45.12ms FAIL
+  2024-11-28 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 00:00:02 App\Jobs\AutoDeleteInquiries .............. 11.19ms FAIL
+  2024-11-28 00:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 00:00:02 App\Jobs\AutoDeleteInquiries .............. 10.89ms FAIL
+  2024-11-28 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 06:00:01 App\Jobs\AutoDeleteInquiries .............. 14.27ms FAIL
+  2024-11-28 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 06:00:01 App\Jobs\AutoDeleteInquiries .............. 11.21ms FAIL
+  2024-11-28 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 06:00:01 App\Jobs\AutoDeleteInquiries .............. 10.29ms FAIL
+  2024-11-28 12:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 12:00:01 App\Jobs\AutoDeleteInquiries .............. 13.40ms FAIL
+  2024-11-28 12:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 12:00:01 App\Jobs\AutoDeleteInquiries .............. 10.08ms FAIL
+  2024-11-28 12:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 12:00:01 App\Jobs\AutoDeleteInquiries .............. 11.24ms FAIL
+  2024-11-28 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 18:00:02 App\Jobs\AutoDeleteInquiries .............. 21.39ms FAIL
+  2024-11-28 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 18:00:02 App\Jobs\AutoDeleteInquiries .............. 15.18ms FAIL
+  2024-11-28 18:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-28 18:00:02 App\Jobs\AutoDeleteInquiries ............... 8.57ms FAIL
+  2024-11-28 20:26:05 App\Jobs\SendingNewUser ........................ RUNNING
+  2024-11-28 20:26:08 App\Jobs\SendingNewUser ........................ 3s DONE
+  2024-11-29 00:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-29 00:00:01 App\Jobs\AutoDeleteInquiries .............. 13.77ms FAIL
+  2024-11-29 00:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-29 00:00:01 App\Jobs\AutoDeleteInquiries ............... 9.79ms FAIL
+  2024-11-29 00:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-29 00:00:01 App\Jobs\AutoDeleteInquiries .............. 10.78ms FAIL
+  2024-11-29 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-29 06:00:01 App\Jobs\AutoDeleteInquiries .............. 25.20ms FAIL
+  2024-11-29 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-29 06:00:01 App\Jobs\AutoDeleteInquiries .............. 10.10ms FAIL
+  2024-11-29 06:00:01 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-29 06:00:02 App\Jobs\AutoDeleteInquiries ............... 9.48ms FAIL
+  2024-11-29 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-29 12:00:02 App\Jobs\AutoDeleteInquiries .............. 20.61ms FAIL
+  2024-11-29 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-29 12:00:02 App\Jobs\AutoDeleteInquiries .............. 11.91ms FAIL
+  2024-11-29 12:00:02 App\Jobs\AutoDeleteInquiries ................... RUNNING
+  2024-11-29 12:00:02 App\Jobs\AutoDeleteInquiries .............. 11.54ms FAIL
+  2024-11-29 14:59:28 App\Jobs\SendingNewUser ........................ RUNNING
+  2024-11-29 14:59:30 App\Jobs\SendingNewUser ........................ 2s DONE

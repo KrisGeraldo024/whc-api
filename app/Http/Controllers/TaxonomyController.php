@@ -86,6 +86,111 @@ class TaxonomyController extends Controller
     }
 
     /**
+     * Display a listing of types with sorting options
+     *
+     * @param Request $request
+     * @return Response
+     */
+    public function showPurpose(Request $request): Response
+    {
+        $sortBy = $request->query('sortBy', 'created_at');
+        $sortDirection = $request->query('sortDirection', 'desc');
+
+        $purpose = $this->taxonomyService->getPurpose($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
+        return response($purpose)->setStatusCode(200);
+    }
+
+    /**
+     * Display a listing of finish with sorting options
+     *
+     * @param Request $request
+     * @return Response
+     */
+    public function showFinish(Request $request): Response
+    {
+        $sortBy = $request->query('sortBy', 'created_at');
+        $sortDirection = $request->query('sortDirection', 'desc');
+
+        $finish = $this->taxonomyService->getFinish($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
+        return response($finish)->setStatusCode(200);
+    }
+
+    /**
+     * Display a listing of sizes with sorting options
+     *
+     * @param Request $request
+     * @return Response
+     */
+    public function showSize(Request $request): Response
+    {
+        $sortBy = $request->query('sortBy', 'created_at');
+        $sortDirection = $request->query('sortDirection', 'desc');
+
+        $size = $this->taxonomyService->getSize($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
+        return response($size)->setStatusCode(200);
+    }
+
+    /**
+     * Display a listing of finish with sorting options
+     *
+     * @param Request $request
+     * @return Response
+     */
+    public function showTone(Request $request): Response
+    {
+        $sortBy = $request->query('sortBy', 'created_at');
+        $sortDirection = $request->query('sortDirection', 'desc');
+
+        $tone = $this->taxonomyService->getTone($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
+        return response($tone)->setStatusCode(200);
+    }
+
+    /**
+     * Display a listing of feature with sorting options
+     *
+     * @param Request $request
+     * @return Response
+     */
+    public function showFeature(Request $request): Response
+    {
+        $sortBy = $request->query('sortBy', 'created_at');
+        $sortDirection = $request->query('sortDirection', 'desc');
+
+        $feature = $this->taxonomyService->getFeature($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
+        return response($feature)->setStatusCode(200);
+    }
+
+    /**
+     * Display a listing of color with sorting options
+     *
+     * @param Request $request
+     * @return Response
+     */
+    public function showColor(Request $request): Response
+    {
+        $sortBy = $request->query('sortBy', 'created_at');
+        $sortDirection = $request->query('sortDirection', 'desc');
+
+        $color = $this->taxonomyService->getColor($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
+        return response($color)->setStatusCode(200);
+    }
+
+        /**
+     * Display a listing of application with sorting options
+     *
+     * @param Request $request
+     * @return Response
+     */
+    public function showApplication(Request $request): Response
+    {
+        $sortBy = $request->query('sortBy', 'created_at');
+        $sortDirection = $request->query('sortDirection', 'desc');
+
+        $application = $this->taxonomyService->getApplication($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
+        return response($application)->setStatusCode(200);
+    }
+
+    /**
      * Display a listing of office locations with sorting options
      *
      * @param Request $request
@@ -298,8 +403,8 @@ class TaxonomyController extends Controller
                 Taxonomy::TYPE_PURPOSE,
                 Taxonomy::TYPE_SIZE,
                 Taxonomy::TYPE_FINISH,
-                Taxonomy::TYPE_SHADE_TONE,
-                Taxonomy::TYPE_FEATURES,
+                Taxonomy::TYPE_TONE,
+                Taxonomy::TYPE_FEATURE,
                 Taxonomy::TYPE_COLOR,
                 Taxonomy::TYPE_APPLICATION,
                 Taxonomy::TYPE_PROPERTY_LOCATION,
@@ -390,10 +495,10 @@ class TaxonomyController extends Controller
             case Taxonomy::TYPE_FINISH:
                 return [];
             
-            case Taxonomy::TYPE_SHADE_TONE:
+            case Taxonomy::TYPE_TONE:
                 return [];
             
-            case Taxonomy::TYPE_FEATURES:
+            case Taxonomy::TYPE_FEATURE:
                 return [];
 
             case Taxonomy::TYPE_COLOR:
@@ -548,8 +653,8 @@ class TaxonomyController extends Controller
                 Taxonomy::TYPE_PURPOSE,
                 Taxonomy::TYPE_SIZE,
                 Taxonomy::TYPE_FINISH,
-                Taxonomy::TYPE_SHADE_TONE,
-                Taxonomy::TYPE_FEATURES,
+                Taxonomy::TYPE_TONE,
+                Taxonomy::TYPE_FEATURE,
                 Taxonomy::TYPE_COLOR,
                 Taxonomy::TYPE_APPLICATION,
                 Taxonomy::TYPE_PROPERTY_LOCATION,

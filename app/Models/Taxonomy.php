@@ -51,8 +51,8 @@ class Taxonomy extends Model
     const TYPE_PURPOSE = 'purpose';
     const TYPE_SIZE = 'size';
     const TYPE_FINISH = 'finish';
-    const TYPE_SHADE_TONE = 'shade_tone';
-    const TYPE_FEATURES = 'features';
+    const TYPE_TONE = 'tone';
+    const TYPE_FEATURE = 'feature';
     const TYPE_COLOR = 'color';
     const TYPE_APPLICATION = 'application';
     const TYPE_PROPERTY_LOCATION = 'property_location';
@@ -100,14 +100,14 @@ class Taxonomy extends Model
         return $query->where('type', self::TYPE_FINISH);
     }
 
-    public function scopeShadeTone($query)
+    public function scopeTone($query)
     {
-        return $query->where('type', self::TYPE_SHADE_TONE);
+        return $query->where('type', self::TYPE_TONE);
     }
 
-    public function scopeFeatures($query)
+    public function scopeFeature($query)
     {
-        return $query->where('type', self::TYPE_FEATURES);
+        return $query->where('type', self::TYPE_FEATURE);
     }
 
     public function scopeColor($query)

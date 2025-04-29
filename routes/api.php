@@ -132,6 +132,13 @@ Route::group(['prefix' => 'v1', 'middleware' => 'throttle:1000,1'], function () 
         Route::group(['prefix' => 'taxonomies', 'controller' => 'TaxonomyController'], function () {
             Route::get('brand', 'showBrand')->name('brand');
             Route::get('type', 'showType')->name('type');
+            Route::get('purpose', 'showPurpose')->name('purpose');
+            Route::get('size', 'showSize')->name('size');
+            Route::get('finish', 'showFinish')->name('finish');
+            Route::get('tone', 'showTone')->name('tone');
+            Route::get('feature', 'showFeature')->name('feature');
+            Route::get('color', 'showColor')->name('color');
+            Route::get('application', 'showApplication')->name('application');
             Route::get('/office-locations', 'showOfficeLocations')->name('office.locations');
             Route::get('/property-statuses', 'showPropertyStatuses')->name('property.statuses');
             Route::get('/property-locations', 'showPropertyLocations')->name('property.locations');

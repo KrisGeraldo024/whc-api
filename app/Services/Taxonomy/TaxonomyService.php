@@ -53,6 +53,73 @@ class TaxonomyService
         return $query->get();
     }
 
+    public function getPurpose($sortBy = 'created_at', $sortDirection = 'desc', $all = false)
+    {
+        $query = Taxonomy::Purpose()->orderBy($sortBy, $sortDirection);
+        
+        if ($all) {
+            return $query->paginate(10);
+        }
+        
+        return $query->get();
+    }
+
+    public function getSize($sortBy = 'created_at', $sortDirection = 'desc', $all = false)
+    {
+        $query = Taxonomy::Size()->orderBy($sortBy, $sortDirection);
+        
+        if ($all) {
+            return $query->paginate(10);
+        }
+        
+        return $query->get();
+    }
+
+    public function getFinish($sortBy = 'created_at', $sortDirection = 'desc', $all = false)
+    {
+        $query = Taxonomy::Finish()->orderBy($sortBy, $sortDirection);
+        
+        if ($all) {
+            return $query->paginate(10);
+        }
+        
+        return $query->get();
+    }
+
+
+    public function getFeature($sortBy = 'created_at', $sortDirection = 'desc', $all = false)
+    {
+        $query = Taxonomy::Feature()->orderBy($sortBy, $sortDirection);
+        
+        if ($all) {
+            return $query->paginate(10);
+        }
+        
+        return $query->get();
+    }
+
+    public function getColor($sortBy = 'created_at', $sortDirection = 'desc', $all = false)
+    {
+        $query = Taxonomy::Color()->orderBy($sortBy, $sortDirection);
+        
+        if ($all) {
+            return $query->paginate(10);
+        }
+        
+        return $query->get();
+    }
+
+    public function getApplication($sortBy = 'created_at', $sortDirection = 'desc', $all = false)
+    {
+        $query = Taxonomy::Application()->orderBy($sortBy, $sortDirection);
+        
+        if ($all) {
+            return $query->paginate(10);
+        }
+        
+        return $query->get();
+    }
+
     /**
      * Get office locations with pagination and sorting
      *

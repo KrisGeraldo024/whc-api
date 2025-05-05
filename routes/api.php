@@ -135,7 +135,7 @@ Route::group(['prefix' => 'v1', 'middleware' => 'throttle:1000,1'], function () 
             Route::get('purpose', 'showPurpose')->name('purpose');
             Route::get('size', 'showSize')->name('size');
             Route::get('finish', 'showFinish')->name('finish');
-            Route::get('tone', 'showTone')->name('tone');
+            Route::get('shade', 'showShade')->name('shade');
             Route::get('feature', 'showFeature')->name('feature');
             Route::get('color', 'showColor')->name('color');
             Route::get('application', 'showApplication')->name('application');

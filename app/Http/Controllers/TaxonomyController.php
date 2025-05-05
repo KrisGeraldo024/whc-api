@@ -136,13 +136,13 @@ class TaxonomyController extends Controller
      * @param Request $request
      * @return Response
      */
-    public function showTone(Request $request): Response
+    public function showShade(Request $request): Response
     {
         $sortBy = $request->query('sortBy', 'created_at');
         $sortDirection = $request->query('sortDirection', 'desc');
 
-        $tone = $this->taxonomyService->getTone($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
-        return response($tone)->setStatusCode(200);
+        $shade = $this->taxonomyService->getShade($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
+        return response($shade)->setStatusCode(200);
     }
 
     /**
@@ -403,7 +403,7 @@ class TaxonomyController extends Controller
                 Taxonomy::TYPE_PURPOSE,
                 Taxonomy::TYPE_SIZE,
                 Taxonomy::TYPE_FINISH,
-                Taxonomy::TYPE_TONE,
+                Taxonomy::TYPE_SHADE,
                 Taxonomy::TYPE_FEATURE,
                 Taxonomy::TYPE_COLOR,
                 Taxonomy::TYPE_APPLICATION,
@@ -495,7 +495,7 @@ class TaxonomyController extends Controller
             case Taxonomy::TYPE_FINISH:
                 return [];
             
-            case Taxonomy::TYPE_TONE:
+            case Taxonomy::TYPE_SHADE:
                 return [];
             
             case Taxonomy::TYPE_FEATURE:
@@ -653,7 +653,7 @@ class TaxonomyController extends Controller
                 Taxonomy::TYPE_PURPOSE,
                 Taxonomy::TYPE_SIZE,
                 Taxonomy::TYPE_FINISH,
-                Taxonomy::TYPE_TONE,
+                Taxonomy::TYPE_SHADE,
                 Taxonomy::TYPE_FEATURE,
                 Taxonomy::TYPE_COLOR,
                 Taxonomy::TYPE_APPLICATION,

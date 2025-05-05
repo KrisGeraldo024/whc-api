@@ -86,6 +86,17 @@ class TaxonomyService
         return $query->get();
     }
 
+    public function getShade($sortBy = 'created_at', $sortDirection = 'desc', $all = false)
+    {
+        $query = Taxonomy::Shade()->orderBy($sortBy, $sortDirection);
+        
+        if ($all) {
+            return $query->paginate(10);
+        }
+        
+        return $query->get();
+    }
+
 
     public function getFeature($sortBy = 'created_at', $sortDirection = 'desc', $all = false)
     {

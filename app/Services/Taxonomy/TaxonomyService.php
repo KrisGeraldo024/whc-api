@@ -38,6 +38,20 @@ class TaxonomyService
         return $query->get();
     }
 
+    public function getMaterial($sortBy = 'created_at', $sortDirection = 'desc', $all = false)
+    {
+        $query = Taxonomy::Material()->orderBy($sortBy, $sortDirection);
+        
+        // Remove the withCount('material') as there's no relationship method
+        // named 'material' in your Taxonomy model
+        
+        if ($all) {
+            return $query->paginate(10);
+        }
+        
+        return $query->get();
+    }
+
 
     public function getType($sortBy = 'created_at', $sortDirection = 'desc', $all = false)
     {

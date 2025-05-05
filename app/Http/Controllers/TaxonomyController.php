@@ -70,19 +70,13 @@ class TaxonomyController extends Controller
         return response($brand)->setStatusCode(200);
     }
 
-    /**
-     * Display a listing of types with sorting options
-     *
-     * @param Request $request
-     * @return Response
-     */
-    public function showType(Request $request): Response
+    public function showMaterial(Request $request): Response
     {
         $sortBy = $request->query('sortBy', 'created_at');
         $sortDirection = $request->query('sortDirection', 'desc');
 
-        $brand = $this->taxonomyService->getType($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
-        return response($brand)->setStatusCode(200);
+        $material = $this->taxonomyService->getMaterial($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
+        return response($material)->setStatusCode(200);
     }
 
     /**

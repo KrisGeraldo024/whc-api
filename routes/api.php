@@ -131,6 +131,7 @@ Route::group(['prefix' => 'v1', 'middleware' => 'throttle:1000,1'], function () 
         // Taxonomy routes
         Route::group(['prefix' => 'taxonomies', 'controller' => 'TaxonomyController'], function () {
             Route::get('brand', 'showBrand')->name('brand');
+            Route::get('material', 'showMaterial')->name('material');
             Route::get('type', 'showType')->name('type');
             Route::get('purpose', 'showPurpose')->name('purpose');
             Route::get('size', 'showSize')->name('size');

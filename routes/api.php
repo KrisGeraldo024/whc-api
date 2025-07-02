@@ -59,6 +59,9 @@ Route::group(['prefix' => 'v1', 'middleware' => 'throttle:1000,1'], function () 
         //award
         Route::apiResource('awards', 'AwardController');
 
+        //clients
+        Route::apiResource('clients', 'ClientController');
+
         //cli stories
         Route::apiResource('stories', 'StoryController');
 

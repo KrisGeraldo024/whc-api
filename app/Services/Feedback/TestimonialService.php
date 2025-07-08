@@ -23,14 +23,15 @@ class TestimonialService
      */
     public function index ($request): Response
     {
-        $records = Testimonial::orderBy('order')
+        $records = Testimonial::orderBy(isset($request->sortBy) ? $request->sortBy : 'date', isset($request->sortDirection) ? $request->sortDirection : 'desc')
+        // ->orderBy('order')
         ->when(isset($request->keyword), function ($query) use ($request) {
-            $query->where('content', 'LIKE', '%' . strtolower($request->keyword).'%');	
+            $query->where('name', 'LIKE', '%' . strtolower($request->keyword).'%');	
         })
         ->when($request->filled('all') , function ($query, $request) {
             return $query->get();
         }, function ($query) {
-            return $query->paginate(20);
+            return $query->orderBy('order')->paginate(20);
         });
 
         return response([
@@ -47,18 +48,14 @@ class TestimonialService
     {
         $record = Testimonial::create([
             'name'      => $request->name,
-            'content'   => $request->content,
-            'property'  => $request->property,
-            'order'     => $request->order,
-            'enabled'   => $request->enabled,
-            'category'  => $request->category,
+            'description'   => $request->description,
+            'position'  => $request->position,
+            'order'    => $request->order ?? Testimonial::count() + 1,
+            'enabled'   => $request->enabled ?? 1,
         ]);
 
-        if ($request->hasFile('main_image')) {
-            $this->addImages('testimonial', $request, $record, 'main_image');
-            $this->metatags($record, $request);
-        }
-        $this->generateLog($request->user(), "added this testimonial ({$record->id}).");
+        $this->metatags($record, $request);
+        $this->generateLog($request->user(), "Created", "Testimonial", $record);
 
         return response([
             'record' => $record
@@ -74,7 +71,7 @@ class TestimonialService
     public function show ($testimonial, $request): Response
     {
         //$testimonial->load('images');
-        $testimonial->load('images', 'metadata');
+        // $testimonial->load('images', 'metadata');
 
         $this->generateLog($request->user(), "viewed this testimonial ({$testimonial->id}).");
 
@@ -93,15 +90,11 @@ class TestimonialService
     {
         $testimonial->update([
             'name'      => $request->name,
-            'content'   => $request->content,
-            'property'  => $request->property,
-            'order'     => $request->order,
-            'enabled'   => $request->enabled,
-            'category'  => $request->category,
+            'description'   => $request->description,
+            'position'  => $request->position,
+            'order'     => $request->order ?? $testimonial->order,
+            'enabled'    => $request->enabled ?? 1,
         ]);
-
-        $this->updateImages('testimonial', $request, $testimonial, 'main_image');
-        $this->metatags($testimonial, $request);
 
         $this->generateLog($request->user(), "updated this testimonial ({$testimonial->id}).");
 
@@ -118,8 +111,12 @@ class TestimonialService
      */
     public function destroy ($testimonial, $request): Response
     {
+        if ($testimonial->order !== Testimonial::max('order')) {
+            Testimonial::where('order', '>', $testimonial->order)->decrement('order'); 
+        }
+        $this->generateLog($request->user(), "Deleted", "Testimonials", $testimonial);
         $testimonial->delete();
-        $this->generateLog($request->user(), "deleted this testimonial ({$testimonial->id}).");
+        $this->reassignOrderValues('Testimonial');
 
         return response([
             'record' => 'Testimonial deleted'

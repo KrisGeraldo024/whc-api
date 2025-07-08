@@ -54,6 +54,7 @@ use App\Models\{
     ProjectAward,
     WebsiteSetting,
     Career,
+    Client,
     File,
     PageFile,
     Biller,
@@ -63,7 +64,7 @@ use App\Models\{
     PaymentOption,
     PaymentChannel,
     PaymentPlatform,
-    Taxonomy
+    Taxonomy,
 };
 use App\Traits\GlobalTrait;
 use DB;
@@ -250,6 +251,13 @@ class PageService
                 ->where('featured', 1)
                 ->with('images', 'locations')
                 ->get();
+            
+            $data['client'] = Client::orderBy('order')
+                                    ->with('images')
+                                    ->get();
+
+            $data['testimonial'] = Testimonial::orderBy('order')
+                                    ->get();
 
             $data['featured_condo'] = Property::select('id', 'name', 'property_type', 'location_id', 'enabled', 'featured', 'slug')
                 ->where('property_type', 'Condominium')

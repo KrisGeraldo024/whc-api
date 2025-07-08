@@ -25,9 +25,8 @@ class TestimonialStoreRequest extends FormRequest
     {
         return [
             'name'      => 'required',
-            'content'   => 'required',
-            'property'  => 'required',
-            'order'     => 'required',
+            'description'   => 'required',
+            'position'  => 'required',
             'enabled'   => 'required',
         ];
     }
@@ -36,9 +35,8 @@ class TestimonialStoreRequest extends FormRequest
     {
         return [
             'name.required' => 'Name is required',
-            'content.required' => 'Content is required',
-            'property.required' => 'Property is required',
-            'order.required' => 'Order is required',
+            'description.required' => 'Description is required',
+            'position.required' => 'Position is required',
             'enabled.required' => 'Enabled is required',
         ];
     }

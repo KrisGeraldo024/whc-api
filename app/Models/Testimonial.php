@@ -8,13 +8,12 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use App\Traits\{
     GlobalTrait, 
     UuidTrait,
-    ImageTrait,
     MetadataTrait
 };
 
 class Testimonial extends Model
 {
-    use HasFactory, UuidTrait, GlobalTrait, ImageTrait, MetadataTrait, SoftDeletes;
+    use HasFactory, UuidTrait, GlobalTrait, MetadataTrait, SoftDeletes;
 
     protected $modelName = 'testimonial';
 

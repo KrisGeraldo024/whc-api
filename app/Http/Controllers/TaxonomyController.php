@@ -109,6 +109,15 @@ class TaxonomyController extends Controller
         return response($finish)->setStatusCode(200);
     }
 
+        public function showType(Request $request): Response
+    {
+        $sortBy = $request->query('sortBy', 'created_at');
+        $sortDirection = $request->query('sortDirection', 'desc');
+
+        $type = $this->taxonomyService->getType($sortBy, $sortDirection, $request->filled('all'), $request->propertyType);
+        return response($type)->setStatusCode(200);
+    }
+
     /**
      * Display a listing of sizes with sorting options
      *
